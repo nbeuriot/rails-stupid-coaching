@@ -1,13 +1,14 @@
 <h1>Stupid Coaching</h1>
+<div class="bd-content">
 
-<div class="card border-start border-5">
-<p> <%= params[:question] %> </p>
-<p> - You </p>
+  <div class="card plop">
+    <p> <%= params[:question] %> </p>
+    <p> - You </p>
+  </div>
+
+  <div class="card plop yellow">
+    <p> <%= @coach %> </p>
+    <p> - Your coach </p>
+  </div>
 </div>
-
-<div class="card bg-warning border-start border-5">
-<p> <%= @coach %> </p>
-<p> - Your coach </p>
-</div>
-
-<a href="/ask">Ask a new question</a>
+<a class="btn btn-primary" href="/ask">Ask a new question</a>

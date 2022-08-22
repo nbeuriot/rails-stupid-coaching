@@ -13,7 +13,19 @@
  *= require_tree .
  *= require_self
  */
-.card {
+.plop {
   width: 30em;
   margin: 3em;
+  border-color: grey;
+  border-width: 3px;
+  border-left-width:10px !important;
+
+}
+
+.yellow {
+  background-color: #FFFEE1 !important;
+}
+
+a {
+  margin: 25px;
 }
